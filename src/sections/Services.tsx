@@ -1,14 +1,16 @@
+import { useTranslation } from "react-i18next";
+import Section from "../components/Section";
 import Service from "../components/Service";
+import Titles from "../components/Titles";
 
 const Services = () => {
-  return (
-    <section
-      className="bg-[#252525] p-3 flex flex-col items-center"
-      id="services"
-    >
-      <h3 className="text-2xl font-bold mb-4">Servicios</h3>
+  const { t } = useTranslation("global");
 
-      <div className="flex flex-wrap gap-2">
+  return (
+    <Section className="bg-[#252525] p-3 sm:p-16 items-center" id="services">
+      <Titles title={t("keywords.services")} />
+
+      <div className="flex flex-wrap gap-2 sm:gap-12">
         <Service
           icon={
             <svg
@@ -24,14 +26,14 @@ const Services = () => {
               />
             </svg>
           }
-          title="Desarrollo Frontend"
+          title={t("services.frontend-development.title")}
         >
-          <li>Diseño Responsive</li>
-          <li>Optimización del sitio web y mejora de accesibilidad</li>
+          <li>{t("services.frontend-development.responsive-design")}</li>
+          <li>{t("services.frontend-development.optimization")}</li>
         </Service>
 
         <Service
-          title="Experiencia Usuario (UX)"
+          title={t("services.user-experience.title")}
           icon={
             <svg
               width="40"
@@ -47,13 +49,13 @@ const Services = () => {
             </svg>
           }
         >
-          <li>Diseño de interfaces intuitivas</li>
-          <li>Maquetado y prototipado de interfaces</li>
-          <li>Análisis particular para mejorar el diseño de una interfaz</li>
+          <li>{t("services.user-experience.intuitive-design")}</li>
+          <li>{t("services.user-experience.layout")}</li>
+          <li>{t("services.user-experience.analysis")}</li>
         </Service>
 
         <Service
-          title="Escritorio y móvil"
+          title={t("services.desktop-mobile.title")}
           icon={
             <svg
               width="60"
@@ -93,18 +95,12 @@ const Services = () => {
             </svg>
           }
         >
-          <li>
-            Creacion de aplicaciones de escritorio y móvil utilizando
-            tecnologìas web
-          </li>
-          <li>
-            Adaptar aplicaciones web ya existentes a otras plataformas (Windows,
-            Android, iOS, Linux)
-          </li>
+          <li>{t("services.desktop-mobile.app-creation")}</li>
+          <li>{t("services.desktop-mobile.adapt")}</li>
         </Service>
 
         <Service
-          title="Mantenimiento y soporte tecnico"
+          title={t("services.maintenance.title")}
           icon={
             <svg
               width="50"
@@ -130,12 +126,12 @@ const Services = () => {
             </svg>
           }
         >
-          <li>Soporte 24/7</li>
-          <li>Monitoreo del rendimiento del proyecto</li>
-          <li>Resolución de problemas técnicos y solucion de bugs</li>
+          <li>{t("services.maintenance.24-7")}</li>
+          <li>{t("services.maintenance.tracking")}</li>
+          <li>{t("services.maintenance.bug-fixing")}</li>
         </Service>
       </div>
-    </section>
+    </Section>
   );
 };
 

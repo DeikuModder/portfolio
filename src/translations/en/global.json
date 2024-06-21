@@ -1,0 +1,59 @@
+{
+  "home": {
+    "role": "Frontend Developer",
+    "text": "Do you need effective and good looking solutions for the frontend of your business? You're in the right place!"
+  },
+  "adjectives": {
+    "development": "Web, mobile and desktop development"
+  },
+  "services": {
+    "frontend-development": {
+      "title": "Frontend Development",
+      "responsive-design": "Responsive Design",
+      "optimization": "Website optimization and improvement of accessibility"
+    },
+    "user-experience": {
+      "title": "User Experience (UI/UX)",
+      "intuitive-design": "Intuitive UI design",
+      "layout": "Layout and prototype of UI",
+      "analysis": "Particular analysis to improve the design of a UI"
+    },
+    "desktop-mobile": {
+      "title": "Desktop and mobile",
+      "app-creation": "Creation of desktop and mobile application, using web technologies",
+      "adapt": "Adapt existing web applications to other plattforms (Windows, Android, iOS)"
+    },
+    "maintenance": {
+      "title": "Technical support and maintenance",
+      "24-7": "24/7 support",
+      "tracking": "Tracking of the performance of the project",
+      "bug-fixing": "Technical problems resolution and bug fixing"
+    }
+  },
+  "contact": {
+    "send": "Send me an",
+    "email": "email",
+    "subject-placeholder": "Ask for a web...",
+    "body-placeholder": "Your message...",
+    "send-button": "Send",
+    "other-contacts": "You can also contact me from:",
+    "download": "Download my CV"
+  },
+  "filter": {
+    "title": "Filter by",
+    "language": "Language",
+    "plattform": {
+      "title": "Plattform",
+      "web": "Web",
+      "mobile": "Mobile",
+      "desktop": "Desktop"
+    }
+  },
+  "keywords": {
+    "contact": "Contact",
+    "projects": "Projects",
+    "services": "Services",
+    "skills": "Skills",
+    "about-me": "About me"
+  }
+}

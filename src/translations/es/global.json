@@ -1,0 +1,59 @@
+{
+  "home": {
+    "role": "Desarrollador Frontend",
+    "text": "Necesitas soluciones bonitas y eficacez para el front end de tus aplicaciones? Estas en el lugar indicado!"
+  },
+  "adjectives": {
+    "development": "Desarrollo web, móvil y de escritorio"
+  },
+  "services": {
+    "frontend-development": {
+      "title": "Desarrollo Frontend",
+      "responsive-design": "Diseño Responsive",
+      "optimization": "Optimización del sitio web y mejora de accesibilidad"
+    },
+    "user-experience": {
+      "title": "Experiencia Usuario (UX)",
+      "intuitive-design": "Diseño de interfaces intuitivas",
+      "layout": "Maquetado y prototipado de interfaces",
+      "analysis": "Análisis particular para mejorar el diseño de una interfaz"
+    },
+    "desktop-mobile": {
+      "title": "Escritorio y móvil",
+      "app-creation": "Creacion de aplicaciones de escritorio y móvil utilizando tecnologìas web",
+      "adapt": "Adaptar aplicaciones web ya existentes a otras plataformas (Windows, Android, iOS, Linux)"
+    },
+    "maintenance": {
+      "title": "Mantenimiento y soporte técnico",
+      "24-7": "Soporte 24/7",
+      "tracking": "Monitoreo del rendimiento del proyecto",
+      "bug-fixing": "Resolución de problemas técnicos y solucion de bugs"
+    }
+  },
+  "contact": {
+    "send": "Envíame un",
+    "email": "correo",
+    "subject-placeholder": "Pedido de sitio web...",
+    "body-placeholder": "Mensaje...",
+    "send-button": "Enviar",
+    "other-contacts": "También me puedes contactar por:",
+    "download": "Descarga mi CV"
+  },
+  "filter": {
+    "title": "Filtar por",
+    "language": "Lenguaje",
+    "plattform": {
+      "title": "Plataforma",
+      "web": "Web",
+      "mobile": "Móvil",
+      "desktop": "Escritorio"
+    }
+  },
+  "keywords": {
+    "contact": "Contacto",
+    "projects": "Proyectos",
+    "services": "Servicios",
+    "skills": "Habilidades",
+    "about-me": "Acerca de mi"
+  }
+}
