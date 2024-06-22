@@ -7,7 +7,7 @@ const Projects = () => {
   const { t } = useTranslation("global");
 
   return (
-    <Section id="projects" className="p-3 bg-[#252525] sm:p-16">
+    <Section id="projects" className=" bg-[#252525] sm:p-16">
       <Titles title={t("keywords.projects")} />
       <ProjectsList />
     </Section>

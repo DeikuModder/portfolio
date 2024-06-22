@@ -7,7 +7,7 @@ const Services = () => {
   const { t } = useTranslation("global");
 
   return (
-    <Section className="bg-[#252525] p-3 sm:p-16 items-center" id="services">
+    <Section className="bg-[#252525] sm:p-16 items-center" id="services">
       <Titles title={t("keywords.services")} />
 
       <div className="flex flex-wrap gap-2 sm:gap-12">
