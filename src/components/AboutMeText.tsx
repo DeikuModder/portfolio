@@ -49,7 +49,7 @@ const AboutMeText = () => {
           full scheme at the time of start a new project, rather than only make
           some pieces without understanding why it's important for me, i like to
           understand and predict how the full project will work once all the
-          pices and engines connect.
+          pieces and engines connect.
         </p>
       )}
     </>

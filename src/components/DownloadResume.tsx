@@ -16,7 +16,7 @@ const DownloadResume = () => {
       className="transition-transform hover:scale-105"
     >
       <div className="bg-neutral-900 text-center h-fit p-1 rounded-md mt-10 ">
-        <figure className="w-[120px] sm:w-[350px]">
+        <figure className="w-[100px] sm:w-[350px]">
           <img
             src={i18n.language === "es" ? cvPic : cvPicEn}
             alt="cv-ES"

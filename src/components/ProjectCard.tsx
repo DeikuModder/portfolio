@@ -32,8 +32,8 @@ const ProjectCard = ({ name, description, tags, url, image, key }: Project) => {
           <p className="text-black p-1">{description}</p>
         </div>
 
-        <div className=" text-black">
-          <p className="bg-neutral-300 w-fit p-1 rounded-lg">{tags}</p>
+        <div className="bg-neutral-300 min-h-[55px] p-1 rounded-lg text-black">
+          <p>{tags}</p>
         </div>
       </div>
     </article>
