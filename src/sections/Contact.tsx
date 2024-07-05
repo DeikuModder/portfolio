@@ -9,7 +9,7 @@ const Contact = () => {
   const { t } = useTranslation("global");
 
   return (
-    <Section className="bg-[#252525] p-4 sm:p-16" id="contact">
+    <Section className="p-4 sm:p-16" id="contact" backgrounColor="bg-[#252525]">
       <Titles title={t("keywords.contact")} />
 
       <div className="flex">

@@ -2,14 +2,18 @@ const Section = ({
   children,
   id,
   className,
+  backgrounColor,
 }: {
   children: JSX.Element | JSX.Element[];
   id: string;
   className?: string;
+  backgrounColor?: string;
 }) => {
   return (
-    <section className={`${className} flex flex-col`} id={id}>
-      {children}
+    <section className={`${backgrounColor}`} id={id}>
+      <div className={`${className} flex flex-col showAnimation`}>
+        {children}
+      </div>
     </section>
   );
 };

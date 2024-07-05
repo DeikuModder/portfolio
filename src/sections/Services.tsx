@@ -7,7 +7,11 @@ const Services = () => {
   const { t } = useTranslation("global");
 
   return (
-    <Section className="bg-[#252525] sm:p-16 items-center" id="services">
+    <Section
+      className="sm:p-16 items-center"
+      id="services"
+      backgrounColor="bg-[#252525]"
+    >
       <Titles title={t("keywords.services")} />
 
       <div className="flex flex-wrap gap-2 sm:gap-12">
