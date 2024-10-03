@@ -23,7 +23,7 @@ const AboutMeText = () => {
           <br />
           Me gusta verme a mi mismo como un{" "}
           <span className="text-[#E59925]">constructor</span>, mas que solo un
-          <span className="text-[#47BB45]">programador</span>, entender el
+          <span className="text-[#47BB45]"> programador</span>, entender el
           panorama completo a la hora de comenzar un proyecto, mas que solo
           limitarme a hacer ciertas piezas es importante para mí, me gusta
           entender y predecir como funcionara el proyecto entero cuando todas

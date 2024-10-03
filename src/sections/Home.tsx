@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import picture from "../assets/picture.jfif";
+import picture from "../assets/pic-1.webp";
 import LangButton from "../components/LangButton";
 import Section from "../components/Section";
 
@@ -19,11 +19,11 @@ const Home = () => {
             </h2>
           </div>
 
-          <figure className="w-[60px] rounded-full sm:hidden">
+          <figure className="w-[60px] aspect-square rounded-full sm:hidden">
             <img
               src={picture}
               alt="picture"
-              className="w-[100%] rounded-full"
+              className="w-[100%] rounded-full "
             />
           </figure>
         </div>
@@ -49,8 +49,12 @@ const Home = () => {
         </div>
       </div>
 
-      <figure className="hidden ml-[50px] w-[415px] sm:block">
-        <img src={picture} alt="picture" className="w-[100%]" />
+      <figure className="hidden ml-[50px] w-[415px] h-[415px] rounded-full aspect-square sm:block">
+        <img
+          src={picture}
+          alt="picture"
+          className="w-[100%] h-[100%] object-cover rounded-full"
+        />
       </figure>
     </Section>
   );
