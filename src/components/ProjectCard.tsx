@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 interface Project {
   name: string;
   description: string;
@@ -5,9 +7,20 @@ interface Project {
   url: string;
   image: string;
   key: string;
+  state: "Activo" | "Pausado" | "Cerrado" | "Active" | "Paused" | "Closed";
 }
 
-const ProjectCard = ({ name, description, tags, url, image, key }: Project) => {
+const ProjectCard = ({
+  name,
+  description,
+  tags,
+  url,
+  image,
+  key,
+  state,
+}: Project) => {
+  const { t } = useTranslation("global");
+
   return (
     <article
       className="mb-8 bg-[#E59925] rounded-lg w-[170px] flex flex-col gap-2 sm:w-[270px]"
@@ -28,6 +41,28 @@ const ProjectCard = ({ name, description, tags, url, image, key }: Project) => {
               {name} -&gt;
             </h3>
           </a>
+
+          <p className="font-bold mt-1">
+            {t("keywords.status")}:{" "}
+            <span
+              className={`${state === "Active" && "bg-emerald-600"}
+            
+            ${state === "Activo" && "bg-emerald-600"}
+
+            ${state === "Pausado" && "bg-yellow-400"}
+
+            ${state === "Paused" && "bg-yellow-400"}
+
+            ${state === "Cerrado" && "bg-red-700"}
+
+            ${state === "Closed" && "bg-red-700"}
+
+             px-1 rounded-l
+            `}
+            >
+              {state}
+            </span>
+          </p>
 
           <p className="text-black p-1">{description}</p>
         </div>

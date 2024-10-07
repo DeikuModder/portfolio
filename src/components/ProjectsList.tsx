@@ -33,6 +33,9 @@ const ProjectsList = () => {
                   : project.description_EN
               }
               tags={project.tags}
+              state={
+                i18n.language === "es" ? project.status_ES : project.status_EN
+              }
               url={project.url}
               image={project.image}
               key={`${project.name}-${index}`}

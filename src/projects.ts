@@ -8,6 +8,8 @@ import { Project } from "./types";
 const projects: Project[] = [
   {
     name: "Venedolar",
+    status_EN: "Active",
+    status_ES: "Activo",
     description_ES:
       "Aplicación de escritorio que monitorea el valor del dolar con respecto al bólivar en tiempo real",
     description_EN:
@@ -19,6 +21,8 @@ const projects: Project[] = [
   },
   {
     name: "Grill Ride",
+    status_EN: "Active",
+    status_ES: "Activo",
     description_ES:
       "SPA de un negocio de comida rapida ficticio llamado Grill Ride, hecho con fines de aprender nuevas tecnologías y diseño de interfaz básico para negocios de este estílo",
     description_EN:
@@ -30,6 +34,8 @@ const projects: Project[] = [
   },
   {
     name: "CodeNote",
+    status_EN: "Paused",
+    status_ES: "Pausado",
     description_ES:
       "Aplicación web para el manejo de tareas, guardar documentación dentro de la misma tarea, tiene integraciones con IA para pedir consejos, fechas limite",
     description_EN:
@@ -41,6 +47,8 @@ const projects: Project[] = [
   },
   {
     name: "In-Resumé",
+    status_EN: "Active",
+    status_ES: "Activo",
     description_ES:
       "Aplicación web para crear de manera rápida e intuitiva curriculums gratis",
     description_EN:
@@ -52,6 +60,8 @@ const projects: Project[] = [
   },
   {
     name: "Keysaver",
+    status_EN: "Active",
+    status_ES: "Activo",
     description_ES:
       "Aplicación de escritorio para administrar de manera local contraseñas",
     description_EN: "Desktop app for the administration of passwords",
