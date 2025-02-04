@@ -42,10 +42,10 @@ const Home = () => {
           </a>
 
           <a
-            href="#projects"
+            href="#work-experience"
             className="border border-[#E59925] text-xl font-medium rounded-lg p-1 sm:text-4xl sm:p-4 sm:border-4 transition-transform hover:scale-105"
           >
-            {t("keywords.projects")}
+            {t("keywords.work-experience")}
           </a>
 
           <LangButton />
