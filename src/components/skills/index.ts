@@ -4,7 +4,6 @@ import Electron from "./Electron";
 import Git from "./Git";
 import GitHub from "./GitHub";
 import Html from "./Html";
-import Java from "./Java";
 import JavaScript from "./JavaScript";
 import MongoDB from "./MongoDB";
 import TailwindCss from "./TailwindCss";
@@ -15,6 +14,7 @@ import Node from "./Node";
 import Supabase from "./Supabase";
 import Scss from "./Scss";
 import Tauri from "./Tauri";
+import NextJS from "./NextJs";
 
 const SkillsObj = {
   Html,
@@ -30,10 +30,10 @@ const SkillsObj = {
   Git,
   GitHub,
   MongoDB,
-  Java,
   Supabase,
   Scss,
   Tauri,
+  NextJS,
 };
 
 export const SkillsArr = Object.values(SkillsObj);

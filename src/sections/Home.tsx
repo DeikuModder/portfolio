@@ -7,7 +7,10 @@ const Home = () => {
   const { t } = useTranslation("global");
 
   return (
-    <Section className="p-4 mb-4 sm:flex-row sm:p-16" id="home">
+    <Section
+      className="p-4 mb-4 md:flex-row md:p-16 md:justify-around"
+      id="home"
+    >
       <div className="flex flex-col justify-center">
         <div className="flex gap-4">
           <div>
@@ -49,7 +52,7 @@ const Home = () => {
         </div>
       </div>
 
-      <figure className="hidden ml-[50px] w-[415px] h-[415px] rounded-full aspect-square sm:block">
+      <figure className="hidden w-[415px] h-[415px] rounded-full aspect-square sm:block">
         <img
           src={picture}
           alt="picture"

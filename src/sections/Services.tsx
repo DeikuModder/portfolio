@@ -7,10 +7,10 @@ const Services = () => {
   const { t } = useTranslation("global");
 
   return (
-    <Section className="sm:p-16" id="services" backgrounColor="bg-[#252525]">
+    <Section className="sm:p-16" id="services" backgrounColor="">
       <Titles title={t("keywords.services")} />
 
-      <div className="flex flex-wrap gap-2 items-center justify-center sm:gap-12">
+      <div className="flex flex-wrap gap-2 mt-8 items-center justify-center sm:gap-12">
         <Service
           icon={
             <svg

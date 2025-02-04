@@ -7,6 +7,7 @@ import Home from "./sections/Home";
 import Projects from "./sections/Projects";
 import Services from "./sections/Services";
 import Skills from "./sections/Skills";
+import WorkExperience from "./sections/WorkExperience";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Home />
       <Adjectives />
       <Services />
+      <WorkExperience />
       <AboutMe />
       <Projects />
       <Skills />

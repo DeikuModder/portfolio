@@ -7,10 +7,10 @@ const Skills = () => {
   const { t } = useTranslation("global");
 
   return (
-    <Section className="items-center p-2 sm:p-16" id="skills">
+    <Section className="items-center p-2 md:p-16" id="skills">
       <Titles title={t("keywords.skills")} />
 
-      <div className="flex flex-wrap justify-center gap-2 max-w-[500px]">
+      <div className="flex flex-wrap justify-center gap-2 max-w-[50%]">
         {SkillsArr.map((skill) => {
           return skill();
         })}

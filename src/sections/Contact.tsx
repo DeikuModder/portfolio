@@ -9,10 +9,10 @@ const Contact = () => {
   const { t } = useTranslation("global");
 
   return (
-    <Section className="p-4 sm:p-16" id="contact" backgrounColor="bg-[#252525]">
+    <Section className="p-4 md:p-16" id="contact" backgrounColor="">
       <Titles title={t("keywords.contact")} />
 
-      <div className="flex">
+      <div className="flex md:justify-around">
         <div className="flex flex-col sm:mx-[100px]">
           <ContactForm />
 

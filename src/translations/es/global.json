@@ -55,6 +55,33 @@
     "services": "Servicios",
     "skills": "Tecnologías",
     "about-me": "Acerca de mi",
-    "status": "Estado"
+    "status": "Estado",
+    "work-experience": "Experiencia Laboral"
+  },
+  "work-experience": {
+    "software-engineer": {
+      "title": "Marin Soluciones",
+      "company": "Lead Frontend Developer/ Asociado",
+      "duration": "Mar 2024 - Presente",
+      "description": [
+        "Dirigí la migración de un software hecho en Microsoft Access de esta startup, a un stack tecnológico mas robusto y seguro.",
+        "Mejore el diseño UI/UX general utilizando herramientas como Figma, añadiendo nuevas funcionalidades que mejoran la productividad de los usuarios al rededor de un 30% con respecto a antes",
+        "Mejore la personalización, añadi mas feedback para el usuario en forma de notificaciones e hice el diseño completamente responsive",
+        "Implementé pipelines de CI/CD para automatizar los procesos de despliegue con Github Actions, supervisé la migración de el backend a su vez, resultando en un backend 70% mas rápido, y mas seguro."
+      ],
+      "url": "https://www.instagram.com/marinsoluciones1/?hl=es"
+    },
+    "frontend-developer": {
+      "title": "RWA Inc",
+      "company": "Fullstack Developer/ Supervisor de equipo",
+      "duration": "Ene 2025 - Presente",
+      "description": [
+        "Hago los diseños para herramientas corporativas utilizando Figma en equipo, diseñando el flujo del UI, manteniendo un UX simple",
+        "Tomo decisiones en cuanto a stacks tecnológicos dependiendo de el proyecto, creo el Frontend de estos proyectos usando (generalmente) tecnologías como React, NextJS, TailwindCSS, etc",
+        "Superviso todo el proceso de desarrollo, asegurandome de que el código sea escalable y cumpla con ciertos estándares de calidad",
+        "Mejoré la productividad aproximadamente un 10% con respecto a antes"
+      ],
+      "url": "https://www.rwa.inc"
+    }
   }
 }

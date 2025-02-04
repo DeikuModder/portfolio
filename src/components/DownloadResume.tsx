@@ -15,7 +15,7 @@ const DownloadResume = () => {
       download="Hector-Gabriel-Trujillo-Resume.pdf"
       className="transition-transform hover:scale-105"
     >
-      <div className="bg-neutral-900 text-center h-fit p-1 rounded-md mt-10 ">
+      <div className="bg-black text-center h-fit p-1 rounded-md mt-10 ">
         <figure className="w-[100px] sm:w-[350px]">
           <img
             src={i18n.language === "es" ? cvPic : cvPicEn}
