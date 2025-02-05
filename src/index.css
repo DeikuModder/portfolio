@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-size: clamp(16px, 1vw, 24px); /* Min: 16px, Preferred: 2vw, Max: 24px */
+}
+
 body {
   background-color: #161616;
   color: #fff;
@@ -19,6 +23,10 @@ h4,
 h5,
 h6 {
   text-wrap: balance;
+}
+
+.home {
+  min-height: calc(80px - 100dvh);
 }
 
 @keyframes show {

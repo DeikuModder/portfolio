@@ -1,6 +1,5 @@
-import venedolar from "./assets/venedolar.webp";
+import venedolar from "./assets/venedolar.jpg";
 import grillRide from "./assets/grill-ride.webp";
-import codeNote from "./assets/code-note.webp";
 import inresume from "./assets/in-resume.webp";
 import keysaver from "./assets/keysaver-ss.webp";
 import { Project } from "./types";
@@ -30,19 +29,6 @@ const projects: Project[] = [
     tags: "React, Typescript, NodeJs, ExpressJs, MongoDB, TailwindCSS",
     url: "https://burger-web-site.vercel.app",
     image: grillRide,
-    plattform: "web",
-  },
-  {
-    name: "CodeNote",
-    status_EN: "Paused",
-    status_ES: "Pausado",
-    description_ES:
-      "Aplicación web para el manejo de tareas, guardar documentación dentro de la misma tarea, tiene integraciones con IA para pedir consejos, fechas limite",
-    description_EN:
-      "Web app for the managment of tasks, save docs inside of the task, has AI integration to ask for advice, deadlines",
-    tags: "React, Typescript, Astro, Supabase, MongoDB, TailwindCSS",
-    url: "https://code-note-nine.vercel.app",
-    image: codeNote,
     plattform: "web",
   },
   {

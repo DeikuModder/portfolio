@@ -1,4 +1,3 @@
-import Adjectives from "./components/Adjectives";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import AboutMe from "./sections/AboutMe";
@@ -14,7 +13,6 @@ function App() {
     <>
       <Header />
       <Home />
-      <Adjectives />
       <Services />
       <WorkExperience />
       <AboutMe />

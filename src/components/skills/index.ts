@@ -15,6 +15,7 @@ import Supabase from "./Supabase";
 import Scss from "./Scss";
 import Tauri from "./Tauri";
 import NextJS from "./NextJs";
+import Figma from "./Figma";
 
 const SkillsObj = {
   Html,
@@ -34,6 +35,7 @@ const SkillsObj = {
   Scss,
   Tauri,
   NextJS,
+  Figma,
 };
 
 export const SkillsArr = Object.values(SkillsObj);
