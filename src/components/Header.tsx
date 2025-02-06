@@ -5,7 +5,7 @@ const Header = () => {
   const { t } = useTranslation("global");
 
   return (
-    <header className="md:h-[80px] sticky top-0 left-0 bg-[#2d2d2d] py-4 md:py-0 md:px-4 flex items-center w-full z-30 shadow-lg shadow-neutral-900">
+    <header className="md:h-[80px] sticky top-0 left-0 bg-[#2d2d2d]/60 backdrop-blur-md py-4 md:py-0 md:px-4 flex items-center w-full z-30 shadow-lg shadow-neutral-900">
       <div className="w-[20%]">
         <a href="/" className="text-white font-bold text-2xl sm:text-4xl">
           <span className=" text-[#E59925]">&lt;</span>
