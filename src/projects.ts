@@ -1,7 +1,6 @@
 import venedolar from "./assets/venedolar.jpg";
 import grillRide from "./assets/grill-ride.webp";
 import inresume from "./assets/in-resume.webp";
-import keysaver from "./assets/keysaver-ss.webp";
 import { Project } from "./types";
 
 const projects: Project[] = [
@@ -52,8 +51,8 @@ const projects: Project[] = [
       "Aplicación de escritorio para administrar de manera local contraseñas",
     description_EN: "Desktop app for the administration of passwords",
     tags: "React, Typescript, TailwindCSS, Tauri, Github Actions",
-    url: "https://github.com/DeikuModder/keysaver",
-    image: keysaver,
+    url: "https://keysaver-landing-page.vercel.app",
+    image: "https://keysaver-landing-page.vercel.app/landing-preview.jpg",
     plattform: "desktop",
   },
 ];
