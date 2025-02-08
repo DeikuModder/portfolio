@@ -10,7 +10,7 @@ const Section = ({
   backgrounColor?: string;
 }) => {
   return (
-    <section className={`${backgrounColor} sections`} id={id}>
+    <section className={`${backgrounColor} sections z-30 relative`} id={id}>
       <div className={`${className} flex flex-col showAnimation`}>
         {children}
       </div>

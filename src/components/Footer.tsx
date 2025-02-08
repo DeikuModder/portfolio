@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="hideOnPrint bg-neutral-950 text-neutral-100">
+    <footer className="hideOnPrint bg-neutral-950 text-neutral-100 relative z-40">
       <div className="p-8 flex flex-col gap-2 justify-center items-center">
         <div className="flex items-center justify-center gap-10">
           <div className="aspect-square w-[50px]">
