@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  font-size: clamp(16px, 1vw, 24px); /* Min: 16px, Preferred: 2vw, Max: 24px */
+  font-size: clamp(16px, 1rem, 24px); /* Min: 16px, Preferred: 2vw, Max: 24px */
 }
 
 body {
@@ -25,7 +25,6 @@ h6 {
 }
 
 .home {
-  min-height: calc(80px - 100dvh);
 }
 
 @keyframes show {

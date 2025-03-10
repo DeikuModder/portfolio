@@ -8,7 +8,7 @@ const Home = () => {
   const { t } = useTranslation("global");
 
   return (
-    <Section className="flex flex-col justify-around" id="home">
+    <Section className="flex flex-col justify-around  h-screen" id="home">
       <div className="p-4 mb-4 flex md:flex-row md:p-16 md:justify-around">
         <div className="flex flex-col justify-center">
           <div className="flex gap-4">
