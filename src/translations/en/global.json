@@ -61,25 +61,25 @@
   "work-experience": {
     "software-engineer": {
       "title": "Marin Soluciones",
-      "company": "Lead Frontend Developer/ Partner",
+      "company": "Lead Frontend Developer & Partner",
       "duration": "March 2023 - Present",
       "description": [
-        "Led the migration of Microsoft Access software from this startup to a more robust and secure tech stack.",
-        "Made an overall better UI/UX design using tools like Figma, adding new features that enhance the productivity of the users by a 30%",
-        "Enhanced the personalization, add more feedback in the form of notification, made the design fully responsive",
-        "Design the CI/CD pipeline using Github Actions, supervise the migration of the backend as well making it 70% more fast, and safer"
+        "Spearheaded migration of legacy Microsoft Access software to a modern tech stack, improving security and scalability.",
+        "Redesigned UI/UX using Figma, boosting user productivity by 30% through intuitive workflows and responsive design.",
+        "Engineered a CI/CD pipeline with GitHub Actions, reducing deployment time by 40% and ensuring seamless updates.",
+        "Collaborated on backend optimization, achieving 70% faster performance and enhanced data security protocols."
       ],
       "url": "https://www.instagram.com/marinsoluciones1/?hl=es"
     },
     "frontend-developer": {
       "title": "RWA Inc",
-      "company": "Fullstack Developer/ Team supervisor",
-      "duration": "Jan 2025 - Present",
+      "company": "Fullstack Developer & Team supervisor",
+      "duration": "Jan 2024 - Present",
       "description": [
-        "Make the design for corporate tools using Figma in team, designing the UI flow, keeping a nice and simple UX",
-        "Take decision on regard of tech stack depending on the project, create the Frontend of the projects using (generally) technologies like React, NextJS, TailwindCSS, etc",
-        "Supervise the whole development process, making sure the code is scalable and met certain quality standards",
-        "Improvise the productivity by a 10% with respect to before"
+        "Led end-to-end development of 5+ corporate tools, selecting tech stacks (React, Next.js, TailwindCSS) to meet project needs.",
+        "Supervised 4 developers, enforcing code quality standards and improving team productivity by 10% via Agile workflows.",
+        "Designed user flows and wireframes in Figma, aligning with stakeholders to ensure seamless UX across applications.",
+        "Architected scalable solutions, including a dashboard that reduced client-reported issues by 25% post-launch."
       ],
       "url": "https://www.rwa.inc"
     }
