@@ -7,9 +7,7 @@ const AboutMeText = () => {
     <>
       {i18n.language === "es" ? (
         <p className="text-center sm:w-[700px] sm:text-2xl sm:mr-[80px]">
-          Estudiante en la carrera de{" "}
-          <span className="text-[#53A2FF]">Ingeniería Informática</span>, tengo
-          aproximadamente mas de 2 años de experiencia en{" "}
+          Poseo aproximadamente mas de 3 años de experiencia en{" "}
           <span className="text-[#E59925]">desarrollo web</span>. Mi progreso en
           el tiempo se puede apreciar en mi cuenta de GitHub. Me especializo en
           el lado del <span className="text-[#FC6767]">frontend</span> de
@@ -31,8 +29,7 @@ const AboutMeText = () => {
         </p>
       ) : (
         <p className="text-center sm:w-[700px] sm:text-2xl sm:mr-[80px]">
-          <span className="text-[#53A2FF]">Data engineer student</span>, with
-          around 2+ years of experience in{" "}
+          I'm a fullstack developer with around 3+ years of experience in{" "}
           <span className="text-[#E59925]">web development</span>. My progress
           in time can be seen on my GitHub account. I specialize on the{" "}
           <span className="text-[#FC6767]">front-end</span> of software
