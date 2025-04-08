@@ -19,8 +19,8 @@ const projects: Project[] = [
   },
   {
     name: "Grill Ride",
-    status_EN: "Active",
-    status_ES: "Activo",
+    status_EN: "Working on Improvements",
+    status_ES: "Trabajando en mejoras",
     description_ES:
       "SPA de un negocio de comida rapida ficticio llamado Grill Ride, hecho con fines de aprender nuevas tecnologías y diseño de interfaz básico para negocios de este estílo",
     description_EN:

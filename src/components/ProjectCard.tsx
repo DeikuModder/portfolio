@@ -7,7 +7,15 @@ interface Project {
   url: string;
   image: string;
   key: string;
-  state: "Activo" | "Pausado" | "Cerrado" | "Active" | "Paused" | "Closed";
+  state:
+    | "Activo"
+    | "Pausado"
+    | "Cerrado"
+    | "Active"
+    | "Paused"
+    | "Closed"
+    | "Working on Improvements"
+    | "Trabajando en mejoras";
 }
 
 const ProjectCard = ({
@@ -50,6 +58,10 @@ const ProjectCard = ({
             ${state === "Activo" && "bg-emerald-600"}
 
             ${state === "Pausado" && "bg-yellow-400"}
+
+            ${state === "Working on Improvements" && "bg-yellow-400"}
+
+            ${state === "Trabajando en mejoras" && "bg-yellow-400"}
 
             ${state === "Paused" && "bg-yellow-400"}
 
